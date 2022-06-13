@@ -12,7 +12,7 @@ Download and install the following libraries:
 ## Pin Definitions
 If you deviate from the following definitions, you will have to change the firmware to account for that.
 
-| LED Display | Trinket Pro Pin |
+| LED Display | Arduino Nano |
 |--------|--------|
 |   SCL  |   A5   |
 |	SDA  | 	 A4   |
@@ -21,23 +21,21 @@ If you deviate from the following definitions, you will have to change the firmw
 |   Vi2c |   5V	  |
 
 
-| Rotary Encoder | Trinket Pro Pin |
+| Rotary Encoder | Arduino Nano |
 |--------|--------|
-|    A    |   A1  |
-|    B    |   A0  |
+|    A    |   4  |
+|    B    |   5  |
 |   GND   |  GND  |
-| Button  |   A2  |
+| Button  |   2  |
 
 
-| LED | Trinket Pro Pin |
+| Neopixel | Arduino Nano |
 |-------------|---------|
-|Top Bulb     |    9    |
-|Front Right  |    3    |
-|Front Center |    5    |
-|Front Left   |    6    |
+|Data         |    11   |
+
 
 ## Installing Firmware
-First, [set up the Arduino IDE according to Adafruit](https://learn.adafruit.com/introducing-pro-trinket/setting-up-arduino-ide). Connect your Trinket Pro and make sure the bootloader is running, then click upload.
+Connect the arduino select the correct model and port, then hit upload.
 
 ## Button Behavior
 The rotary encoder has a click button, and we can detect a single click, a double click, and a hold.
