@@ -1,6 +1,6 @@
 # PortalGun
 Code to control a Portal Gun (From Rick and Morty)
-
+[Link to 3D model](https://www.thingiverse.com/thing:1100601)
 ##Libraries
 Download and install the following libraries:
 
